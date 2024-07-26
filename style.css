@@ -144,19 +144,49 @@ p {
         padding: 20px;
         border-radius: 10px;
      }
-     #desenvolvimentoDeSoftware{
-        flex: 0 0 calc(33.33% - 20px);
-        margin: 10px;
-        padding: 10px 0px 20px 10px;
-        box-sizing: border-box;
-        border: 1px solid #dee2e6;
-        border-radius: 5px;
+     .desenvolvimentoDeSoftware{
+      background-color:#424242;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
      }
-     .desenvolvimento:hover {
-      
-      background-color: #5c6061; /* Green */
+     .desenvolvimentoDeSoftware:hover {
+      background-color: #5c6061; 
       color: white;
     }
+    /*tabela*/
+    table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color:#73cbd1;
+            color: white;
+        }
+        tr{
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        caption {
+            caption-side: bottom;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
 
     
      

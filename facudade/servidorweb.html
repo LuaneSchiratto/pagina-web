@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luane Souza Melo Schiratto">
+    <meta name="Description"content="Pagina organizacional de estudos">
+    <title>Tópico Programação Web</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li class="Projeto1"><img src="../img/emoji.jpeg" alt="emoji"></li>
+                    <li class="Projeto2"><a href="facudade.html" class="button">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 class="Topicoh1">Programação Web</h1>
+            <section class="estudosection">
+                <article>
+                    <h1 class="Topicoh1">01. Servidor Web</h1>
+                        <p>Servidor web pode ser um programa de computador que tem como principal objetivo aceitar pedidos HTTP  de navegadores e servi-los com respostas HTTP. Essas respostas normalmente são documentos  HTML com objetivos embutidos (imagens etc.)</p>
+                    <h3>World Wide Web</h3>
+                        <p>Com o passar dos anos a aplicação World Wide Web sofreu um crescimento exponencial. Não são somente milhões de pessoas navegando a cada dia, mas, também por centenas de milhares de novos sites que são adicionados diariamente </p>
+                    <h3>Mas o que são servidores Web?</h3>
+                        <p>Um servidor Web é um computador conectado à internet, onde arquivos e outros recursos estão armazenados e disponíveis para a execução, e está em funcionamento permanente por 24 horas por dia.</p>
+                        <p>A requisição de um arquivo ou recurso é efetuado através de um esquema de endereçamento uniforme conhecido como URL utilizando o seguinte formato: </p>
+                        <p>http;//www.uninove.br80/aquivos/index.php</p>
+                        <p>A URL é dividida em cinco partes:</p>
+                        <ul class="listad">
+                            <li>O protocolo utilizado</li>
+                            <li>O servidor acessando através do domain Name Server (DNS)</li>
+                            <li>A porta pela qual o servidor recebe as requisições (a porta defaulte é a porta 80 portanto ela não precisa ser informada)</li>
+                            <li>O diretório onde estão armazenados os arquivos solicitados</li>
+                            <li>O recurso desejado</li>
+                        </ul>
+                        <p>Os servidores web foram projetados para atender  a diversas necessidades dos clientes, dentre as quais podemos destacar:</p>
+                        <ul class="listad">
+                            <li>HTTP (O mais comum)</li>
+                            <li>Servidor POP3 e SMTP (Correio eletrônico)</li>
+                            <li>FTP (Gerenciamento de arquivos dentre outros)</li>
+                        </ul>
+                    <h3>No mercado existem diversos servidores web, mas só iremos mencionar apenas os dois líderes de mercado:</h3>
+                        <ul class="listad">
+                            <li>Apache</li>
+                            <li>IIS</li>
+                        </ul>
+                        <p>Instruções para instalar o servidor web WampServer</p>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">02. Tecnologias Client-Server</h1>
+                        <h3>O que é linguagem client-side e server-side?</h3>
+                            <p>São termos de desenvolvimento da web que descrevem onde o código do aplicativo é executado.</p>
+                            <p>Quando estamos programando para a internet, existem dois tipos de linguagens, as linguagens client-side e a linguagem server-side</p>
+                            <ul class="listad">
+                                <li>Lado do Cliente: No desenvolvimento da web, “lado do cliente” refere-se a tudo em um aplicativo web que é exibido ou ocorre no cliente (dispositivo do usuário final). As linguagens client-side são linguagens onde apenas o seu navegador vai entender.</li><br>
+                                <li>Lado do Servidor: O servidor fornece para o cliente uma saída: ele serve a página desejada ou arquivos. Ele também interpreta a entrada do cliente: o cliente envia informações (formulário) para o servidor e arquivos. As linguagens server-side são linguagens que o servidor entende.</li>
+                            </ul>
+                        <h3>São exemplos de linguagens client-side:</h3>
+                            <ul class="listad">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                        <h3>São exemplos de linguagens server-side:</h3>
+                            <ul class="listad">
+                                <li>Banco de dados como SQL, MYDQL, Oracle...</li>
+                                <li>PHP</li>
+                                <li>ASP</li>
+                                <li>ASP.NET</li>
+                            </ul>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">03. Conceitos básicos da linguagem PHP</h1>
+                        <h3>Integração com Bancos de dados</h3>
+                            <p>PHP se conecta a múltiplos bancos de dados (Oracle, SQLServer, PostgreSQL, MYsql) usando uma biblioteca PDO ou a função 'mysql_connect()'.</p>
+                            <p>Essa integração é escencial para aplicações que precisam recuperar e armazenar dados</p>
+                        <h3>Geração de Imagens e documentos</h3>
+                            <p>PHP pode criar imagens, gráficos e documentos em formatos como DOC, PDF e XLS o que elimina a necessidade de ferramentas adicionas.</p>
+                        <h3>Facilidade de aprendizado</h3>
+                            <p>PHP é fácil de aprender devido a sua sintaxe similar a Java, Perl e C/C++</p>
+                        <h3>Execução no Servidor</h3>
+                            <p>O PHP processa o código no Servidor e envia o resultado em HTML para o cliente.
+                            <br>Isso permite o uso de tecnologias como Javascript, jQuery, Ajax e CSS no HTML, aumentando a complexidade das aplicações sem preocupações com o lado do servidor</p>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">04. Sintaxe, constantes, variáveis</h1>
+                        <p>Para iniciar a construção de um script em PHP iremos precisar de uma IDE</p>
+                        <ul class="listad">Sugestões
+                            <li>Elipse</li>
+                            <li>NetBeans</li>
+                            <li>PHPEdit</li>
+                            <li>Zend Studio</li>
+                        </ul>
+                        <p>Para que os códigos sejam processados, é necessário salvar o arquivo com a extensão .php</p>
+                        <p>Usar o ponto e vírgula no final de cada comando. Também é importante lembrar que o PHP é case sensitive, ou seja, diferencia letras maiúsculas de letras minúsculas</p>
+                    <h3>Sintaxe PHP</h3>
+                        <p>Quando o Servidor PHP interpreta uma página, ele percorre o código-fonte do arquivo até encontrar a tag que indica o inicio do conteúdo PHP. O interpretador então executa todo o código que encontra, até chegar a tag de fechamento PHP.</p>
+                        <p>Há quatro conjunto de tags que podem ser usadas para marcar bloco de códigos PHP. Duas delas estão habitadas por padrão, as outras de vem ser habilitadas manualmente.</p>
+                        <img src="img/Printe_de_Codigo.png" alt="tags para marcar blocos de códigos PHP">
+                        <p>É importante ressaltar que para que estes dois últimos conjuntos de tags funcionem, precisamos habilitar no arquivo modificado os seguintes valores:</p>
+                        <ul class="listad">De
+                            <li>short_open_tag= Off</li>
+                            <li>asp_tags= Off</li>
+                        </ul>
+                        <ul class="listad">Para
+                            <li>short_open_tag = On</li>
+                            <li>asp_tag = On</li>
+                        </ul>
+                        <p>Um pequeno exemplo da sintaxe PHP:</p>
+                        <img src="img/Exemplo_de_sintaxePHP.png" alt="Imagen de exemplo de sintaxe PHP">
+                    <h3>No PHP existem algumas maneiras básicas para exibir uma informação na tela</h3>
+                    <h3>A instrução echo</h3>
+                        <p>A instrução echo é aquela que exibe qualquer informação na página, podendo conter texto, números ou variáveis.
+                        <br>O echo é uma instrução nativa do PHP, cujo sua sintaxe é simples:</p>
+                        <img src="img/Instrucao_echo.png" alt="Instrução echo">
+                        <h3>A instrução print</h3>  
+                        <p>A função print() imprime dados no navegador de algumas formas diferentes:</p>  
+                        <img src="img/instrucao_print.png" alt="Instrução print"> 
+                    <h3>A instrução printf</h3>  
+                        <p>A função printf() é uma função de saída de dados formatados, que permite que você formate a saída de dados.</p>
+                        <img src="img/instrucao_print02.png" alt="Intrução print 02">
+                        <p>Quando usamos o comando echo ele não retorna nada, já o comando print sempre irá retornar o valor 1. Por esse motivo o comando echo vai ser ligeiramente mais rápido</p>
+                    <h3>Comentários</h3>
+                        <p>Existem três formas de se criar comentários no PHP?</p>
+                        <img src="img/comentariosPHP.png" alt="Comentário em php">
+                    <h3>Concatenação em PHP</h3>
+                        <p>Concatenação é um termo usado em computação para unir "coisas diferentes, Ou seja, unir uma string e uma variável, ou uma variável cujo o conteúdo é um valor numérico com uma variável com o conteúdo do tipo string</p>
+                        <p>Existem algumas formas de executar essa concatenação em PHP, vamos a elas: </p>
+                        <p>Primeira forma:</p>
+                        <p>Para concatenar podemos fazer uso do operador "."(Ponto)</p>
+                        <img src="img/concatenacao_em_php.png" alt="Formas de unir coisas em php">
+                        <p>Segunda forma:</p>
+                        <p>Aqui utilizaremos a atribuição de variáveis, ou seja, concatenaremos váriaveis quase que da mesma forma. a variável recebera a atribuição encontra se sempre do lado esquerdo, e estas recebem o valor que está na variável da direita. Utilizamos".="(ponto e sinal de igual)</p>
+                        <img src="img/comcatenacaoPHP02.png" alt="Formas de unir coisas em php">
+                    <h3>Variáveis em PHP</h3>
+                        <p>As variáveis em PHP são precedidas por um cifrão($) seguido pelo nome da variável e devem respeitar as regras abaixo</p>
+                        <ul class="listad">
+                            <li>O primeiro caractere deve ser uma letra ou um símbolo de uniderscore(_)</li>
+                            <li>Não pode conter espaços em nomes de variáveis compostos</li>
+                            <li>Crie sempre nomes de variáveis significativos, que permita transmitir uma ideia precisa sobre o conteúdo que a variável armazena</li>
+                        </ul>
+                        <img src="img/ex_em_php.png" alt="Variáveis em php">
+                        <p>No PHP não temos a necessidade de especificar o tipo da variável na criação delas pois se trata de uma linguagem <b>Fracamente Tipada</b></p>
+                    <h3>Variáveis locais</h3>
+                        <p>São criadas dentro de uma função ou em uma página que só pode ser referenciada por instruções dentro dessa mesma função ou página</p>
+                        <p>Exemplo:</p>
+                        <img src="img/ex_02.png" alt="Variáveis em php">
+                    <h3>Variáveis globais</h3>
+                        <p>Podem ser acessadas em qualquer parte do programa ou página, dentro ou fora das funções </p>
+                        <img src="img/ex03.png" alt="Variáveis em php">
+                        <h3>Variáveis estáticas</h3>
+                        <p>Este tipo de variáveis existe somente dentro do escopo de uma função, e não é destruída quando a função é finalizada. Podemos utilizá-la novamente ao chamar esta função, e ela ainda possuirá o valor que tinha anteriormente. As variáveis estáticas são visíveis apenas no programa ou na página em que foram criadas. Para criarmos uma variável estática usamos a palavra-chave static no momento da sua criação. </p>
+                        <img src="img/ex04.png" alt="Variáveis em php">
+                    <h3>Variáveis dinâmicas</h3>
+                        <p>São variáveis cujo nome podem mudar, de acordo com o conteúdo de outra variável. Para declararmos uma variável dinâmica devemos iniciar seu nome com 2 cifrões($$), e o  PHP irá interpretar que o conteúdo dessa variável é uma nova variável. Na realidade, o que criamos foi uma nova variável cujo nome será o conteúdo da variável criada anteriormente.</p>
+                        <img src="img/ex05.png" alt="Variáveis em php">
+                            <p>Por mais que este recurso de variáveis seja interessante, limite seu uso, pois além de deixar o código de difícil compreensão, pode causar falhas na segurança do seu script dependendo da forma em que for codificado.</p>
+                    <h3>Variáveis superglobais</h3>
+                        <p>No PHP temos algumas variáveis especiais chamadas de variáveis superglobais, também chamadas de variáveis pré-definidas, que nos permitem acessar informações disponíveis no ambiente do script. Essas variáveis não precisam ser declaradas e podem ser invocadas a qualquer momento no código.</p>
+                        <ul class="listad">
+                            <li>$_SERVER</li>
+                            <li>$_GET</li>
+                            <li>$_POST</li>
+                            <li>$_FILES</li>
+                            <li>$_REQUEST</li>
+                            <li>$_SESSION</li>
+                            <li>$_ENV</li>
+                            <li>$_COOKIE</li>
+                        </ul>
+                    <h3>Constantes</h3>
+                    <p>Ao contrário das variáveis, as constantes são definidas como valores imutáveis, ou seja, uma vez definida, seu conteúdo não muda. Constantes podem ser acessadas de qualquer lugar do script, ou seja, são globais. Assim como as variáveis, as declarações de constantes também possuem algumas regras.</p>
+                    <ul class="listad">
+                        <li> constantes devem ser declaradas em maiúsculas.</li>
+                        <li> Constantes não podem ter sinal de ($) antes delas.</li>
+                        <li>Constantes só podem ser definidas utilizando a função define()</li>
+                        <li>Constantes podem ser definidas e acessadas de qualquer lugar, sem que as regras do escopo de variáveis sejam aplicadas.</li>
+                        <li> Constantes não podem ser redefinidas ou eliminadas depois que são a sessão criadas.</li>
+                        <li>Constantes só pode conter valores escalares (são os que contêm Integer, float, string ou boolean)</li>
+                    </ul>
+                    <img src="img/ex06.png" alt="Constantes em php">
+                </article>
+                <article>
+                    <h1 class="Topicoh1">05. Servidor Web</h1>
+                    <h3>Arrays</h3>
+                        <p>Arrays são estruturas de dados que armazenam numa coleção de elementos identificados por um índice ou chave. Também conhecido como variáveis indexadas, vetores (arrays  unidimensionais) ou matrizes (arrays multidimensionais), eles permitem armazenar inúmeros valores na mesma porção de memória, ao contrário de uma variável comum que armazena apenas o valor.</p>
+                    <h3>Criando arrays em PHP</h3>
+                        <p>Uma das maneiras mais comuns para criar um array em PHP é utilizando o construtor array(), 
+                            <br>Veja o exemplo:</p>
+                            <img src="img/ex07.png" alt="Arrays em PHP">
+                        <p>No exemplo acima, a variável $nome_do_array já é um array! Simples assim.</p>
+                        <p>Também podemos iniciar nossos nosso array contendo alguns valores. Por exemplo,vamos iniciar nosso array com 4 valores.</p>
+                            <img src="img/ex08.png" alt="Arrays em PHP">
+                        <p>Você também pode criar um array colocando colchetes em frente ao nome da variável que será o arry em si.</p>
+                        <img src="img/EX09.png" alt="Arrays em PHP">
+                        <p>Todos os trechos de código acima geram índices ou chaves automaticamente. Nesse caso, nesses índices são números começando pelo número zero sendo incremento a cada novo item.</p>
+                    <h3>Exibindo o valor de uma posição do array</h3>
+                        <p>Numa variável array  podemos ter n valores armazenados. Ou seja, cada variável fica numa posição específica nesta porção de memória.
+                            <br>Em PHP, uma das formas é de acessar tais valores é utilizando o índice (index) do array Que sempre se inicia em zero. 
+                            <br>Ou seja, todo o índice é definido pela posição -1. Portanto, se quisermos acessar o terceiro elemento de um array devemos usar o índice da posição 2, porque 3 − 1 é igual a 2. 
+                            <br>Os índices são indicados por colchetes [] que vem logo após o nome da variável. Portanto, se quisermos modificar ou acessar o conteúdo de uma variável, faríamos:</p>
+                            <img src="img/ex10.png" alt="Valor da posição arrays em PHP">
+                        <p>Neste caso, sabemos quais elementos queremos acessar, agora e se não soubermos quantos elementos nossos array possui? É extremamente fácil ver todos os índices e seus respectivos valores em PHP, basta utilizar o comando print_r  (exibe os valores do vetor ou da matriz apresentando-os em um formato que mostra chaves e elementos) Veja o exemplo:</p>
+                            <img src="img/ex11.png" alt="Valor da posição arrays em PHP">
+                    <h3>Arrays associativos</h3>
+                        <p>Uma característica interessantíssima dos Arrais em PHP é a capacidade de associações. Quando nos referimos a associação, queremos dizer que ao invés de índices numéricos inteiros, gerados de forma automática (0,1,2 ...), podemos gerar um índice do tipo do string com o nome que desejamos. Dessa forma fica mais fácil fica muitomais simples e intuitivo obter um valor de uma array, pois nomes fazem mais sentido do que números.</p>
+                        <p>Veja o exemplo com índices definidos:</p>
+                            <img src="img/EX12.png" alt="Arrays associativos">
+                        <p>Ou se preferir:</p>
+                            <img src="img/ex13.png" alt="Arrays associativos">
+                        <p>Para exibir os valores dos array associativo, seguimos o mesmo padrão:</p>
+                            <img src="img/ex14.png" alt="Arrays associativos">
+                    <h3>Arrays multidimensionais (Matrizes)</h3>
+                        <p>O PHP nos permite trabalharmos com (Matrizes) que são arrays dentro outros arrays, ou seja, em cada posição de um array existe outro array.</p>
+                        <p>Um array multidimensional pode ser bidimensional (2D), tile tridimensional (3D) e assim por diante.</p>
+                        <p>Quando utilizamos a raiz multidimensionais (matrizes) existem mais índices numa mesma variável.</p>
+                        <p>Exemplo:</p>
+                        <ul class="listad">
+                            <li>Arrays comum: $vetor[]</li>
+                            <li>Arrays bidimensional: $vetor[][]</li>
+                            <li>Arrays tridimensional: $vetor[][][] </li>
+                        </ul>    
+                        <p>Os índices de uma de uma matriz segue a mesma característica dos índices visto até agora, podendo ser tanto numérico quanto strings (associativo).</p>
+                        <p>Tomemos como base, o exemplo anterior, porém, vamos criar uma matriz para cadastrarmos mais uma de uma pessoa.</p>
+                            <img src="img/ex15.png" alt="Arrays multidimensionais">      
+                    <h3>Objetos em PHP</h3>   
+                        <b>Orientação a objetos:</b>
+                        <p>Podemos defini-la como um modelo de programação de sistemas baseado na composição e interação de diversas unidades de software</p>
+                        <p>Na orientação a objetos, implementam-se classes que definem os objetos presentes no sistema. Cada classe determina o comportamento e estados possíveis de seus objetos, assim como o relacionamento com outros objetos</p>
+                        <p>Alguns termos serão constantes na orientação a objetos.</p> 
+                        <ul class="listad">
+                            <li>Classes</li>
+                            <li>Subclasses</li>
+                            <li>Objeto ou instância</li>
+                            <li>Atributos</li>
+                            <li>Métodos</li>
+                            <li>Mensagem</li>
+                            <li>Herança ou generelização</li>
+                            <li>Associação</li>
+                            <li>Encapsulamento</li>
+                            <li>Abstração</li>
+                            <li>Polimorfismo</li>
+                            <li>Interface</li>
+                            <li>Pacotes</li>
+                        </ul>  
+                        <p>Criando uma classe e acessando os atributos dessa classe</p> 
+                            <img src="./img/classePHP.png" alt="Classes e atributos em PHP"> 
+                    <h3>Operadores em PHP</h3>
+                    </article>
+            </section>
+            <footer class="Topicofooter">
+                <ul class="social-list">
+                    <li><a href="https://www.facebook.com/yourusername">Github</a></li>
+                    <li><a href="https://www.twitter.com/yourusername">Youtube</a></li>
+                    <li><a href="https://www.instagram.com/yourusername">Linkedln</a></li>
+                    <li><a href="https://www.linkedin.com/in/yourusername">LinkedIn</a></li>
+                </ul>
+            </footer> 
+            </div>   
+</body>
+</html>
