@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luane Souza Melo Schiratto">
+    <meta name="Description"content="Pagina organizacional de estudos">
+    <title>Sistemas Orientados a Objetos</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li class="Projeto1"><img src="../img/emoji.jpeg" alt="emoji"></li>
+                    <li class="Projeto2"><a href="pagprincipal.html" class="button">Voltar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 class="Topicoh1">ANÁLISE E PROJETO DE SISTEMAS ORIENTADOS A OBJETOS</h1>
+            <section class="estudosection">
+                <article>
+                    <h1 class="Topicoh1">01. Histórico das Metodologias de Desenvolvimento de Sistemas</h1>
+                    <p>Números mais atuais indicam que mais de 60% dos projetos de software falham! Desses, 20% a 25% são cancelados ou não chegam a ser usados.</p>
+                    <h3>Atividades fundamentais nos desenvolimento de Software</h3>
+                    <ul class="listad">
+                        <li><b>Especificação:</b> Definição de funcionalidades e restrições.</li>
+                        <li><b>Análise:</b> Definição dos desenhos que serão como auxílio para a produção do software.</li>
+                        <li><b>Implementação:</b> Construção do software de acordo com o especificado/desenhado.</li>
+                        <li><b>Validação:</b> Garantia que o software faz o que foi especificado.</li>
+                        <li><b>Entrega:</b> Instalação e Futura evolução natural, para atender às necessidades do cliente.</li>
+                    </ul>
+                    <p>Esse tópico vai discutir três metodologias largamente conhecidas: Análise Estruturada, Análise Essencial e Análise Orientada a Objetos.</p>
+                    <h3>Análise Estruturada</h3>
+                    <p>Essa abordagem está voltada para os aspectos funcionais e de dados do sistema.</p>
+                    <p>A análise estruturada tem como artefatos produzidos os diagramas de Entidade-Relacionamento (DER) e de Fluxo de Dados (DFD). Além disso, espera-se a construção de um Dicionário de Dados. Conceitualmente, espera-se a construção do sistema de forma top-down (do todo para as partes)</p>
+                    <h3>Análise Essencial</h3>
+                    <p>A Análise Essencial é uma evolução da Análise Estruturada, que adiciona a questão do Controle como aspecto a ser modelado além das Funções e dos Dados. Esse novo aspecto tem muita relação com os sistemas em tempo real, onde o fator evento se torna necessário visualizar. 
+                        <br>A análise essencial é formada por dois modelos:</p>
+                        <p><b>Modelo Ambiental:</b> O seu objetivo é apresentar uma visão externa do sistema.</p>
+                        <p><b>Modelo Comportamental:</b> Esse modelo apresenta uma visão interna do sistema.</p>
+                    <h3>Análise Orientada a Objetos</h3>
+                    <p>O mundo real é composto por objetos. A Análise Orientada a Objetos é uma abordagem que muda o enfoque dado pelas análises anteriormente mencionadas. Por tal razão, consideramos essa abordagem uma quebra de paradigma, uma vez que ela inclusive, altera a maneira de se construir software.</p>
+                    <p>O método para modelagem utilizado deixa de ser top-down (todo para as partes) e passa a ser bottom-up (partes para o todo). O analista passa pela experiência de “brincar de lego”. Além disso, essa maneira de se modelar facilita a comunicação com o usuário.
+                        <br>Também é importante ressaltar que, nas abordagens anteriores, dados e funções / processos estão estruturados de forma separada. Na orientação a objetos existe a união dessas estruturas dentro do conceito de objeto. A representação de um conjunto de objetos com características (dados / atributos) e comportamentos (funções / métodos) semelhantes é chamada de Classe.</p>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">02. Conceitos de Orientação a Objetos</h1>
+                    <p>A análise orientada a objetos baseia-se em alguns princípios que são utilizados para administrar a complexidade e facilitar a modelagem de sistemas. 
+                        <br>São quatro os princípios da orientação a objetos: abstração, herança, encapsulamento e polimorfismo
+                    </p>
+                    <h3>Princípio da Herança</h3>
+                    <p>
+                        a herança permite dentro da orientação a objetos é que uma classe Filha possa herdar Atributos e/ Comportamentos de uma classe Pai,
+                    </p>
+                    <p>
+                        No exemplo da figura abaixo, temos três classes sendo representadas: Pessoa, Professor e Aluno. A classe Pessoa possui os atributos Idade, Nome e RG. Ela é a superclasse das classes Professor e Aluno, que foram especializadas por conta dos atributos e métodos particulares existentes para cada tipo de objeto. Lembrando que a classe professor terá como atributos, além das informações de Disciplinas e Matricula, os atributos da classe pai Idade, Nome e RG.
+                    </p>
+                    <img src="https://img.uninove.br/static/0/0/0/0/0/0/0/2/5/9/4/259408/9918.jpg" class="printsfa" alt="Foto em linnk">
+                    <h3>Princípio do Encapsulamento</h3>
+                    <p>
+                        O objetivo do princípio de Encapsulamento é ocultar dados e/ou operações existentes em uma classe. A ideia de ocultar tais características e/ou comportamentos tem forte relação com segurança do objeto. Dessa maneira, o objeto só terá disponível conteúdos realmente necessários para sua interação. Sendo assim, o encapsulamento auxilia também na independência do objeto.
+                    </p>
+                    <h3>Princípio do Polimorfismo</h3>
+                    <p>
+                        A orientação a objetos permite que uma subclasse possa alterar o comportamento / forma como a sua superclasse executa determinada operação, mantendo o mesmo nome de operação. Esse princípio é chamado de polimorfismo, visto que essa possiblidade implica em um sistema poder ter múltiplas formas de execução de uma operação que possua a mesma assinatura (declaração do método).
+                    </p>
+                    <img src="https://img.uninove.br/static/0/0/0/0/0/0/0/2/5/9/4/259425/9919.jpg" class="printsfa" alt="Foto em linnk">
+                </article>
+                <article>
+                    <h2>Abstração: Conceitos e Exemplos</h2>
+                    <p>
+                        Como é possivel simplificar a visão do mundo real em meu sistema computacional?
+                    </p>
+                    <p>
+                        Tomemos como base o objeto Pessoa. Imagine quantos atributos (características) e métodos (ações) uma pessoa pode ter. Será que realmente se faz necessário detalhar todos esses atributos e métodos na construção de um sistema? Obviamente não. E mais, será que um sistema de contas a pagar possuirá o mesmo conjunto de atributos de um sistema para a área de saúde? Certamente, essa não é a melhor proposta.
+                        <br>A abstração, portanto, ajudará o analista a pensar no que é realmente relevante para o sistema. Dessa forma, as pessoas envolvidas no sistema estarão dedicadas a exclusivamente o que se espera naquele software.
+                    </p>
+                    <h3>Classe e Métodos Abstratos</h3>
+                    <p>
+                        No contexto de orientação a objetos, existe ainda a ideia de uma classe ou método abstrato, conforme é mostrado na figura abaixo. Fica o destaque para o fato de o nome da classe e do método serem apresentados em itálico nesses casos.
+                    </p>
+                    <img src="https://img.uninove.br/static/0/0/0/0/0/0/0/2/6/0/2/260232/9923.jpg" class="printsfa" alt="Foto em linnk">
+                </article>
+                <article>
+                    <h1 class="Topicoh1">03. Classe e Objetos: Conceitos e Exemplos</h1>
+                    <p>
+                        Na orientação a objetos, a representação de um conjunto de objetos com características e comportamentos semelhantes é chamada de Classe. Sendo assim, a classe nada mais é que uma descrição do que o objeto possui e como o objeto atua.
+                        <br>Os objetos são caracterizados por possuírem Identidade, Estado e Comportamento. A comunicação entre os objetos é feita através de mensagens que acionam os comportamentos definidos.
+                    </p>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">04.</h1>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">05.</h1>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">06.</h1>
+                </article>
+                <article>
+                    <h1 class="Topicoh1">07.</h1>
+                </article>
+            </section>
+    <footer class="Topicofooter">
+        <ul class="social-list">
+            <li><a href="https://www.facebook.com/yourusername">Github</a></li>
+            <li><a href="https://www.twitter.com/yourusername">Youtube</a></li>
+            <li><a href="https://www.instagram.com/yourusername">Linkedln</a></li>
+            <li><a href="https://www.linkedin.com/in/yourusername">LinkedIn</a></li>
+        </ul>
+    </footer>  
+    </section>
+</div>
+</body>
+</html>

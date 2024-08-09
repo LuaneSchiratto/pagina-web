@@ -98,6 +98,10 @@ p {
     background-color: #73cbd1; 
     color:black;
   }
+  .printsfa { 
+    height: 100%; 
+    background-color: #424242;
+}
     /*Tópico*/
     .Topicofooter{
         background-color: #424242;
@@ -187,6 +191,8 @@ p {
             font-size: 0.9em;
             color: #555;
         }
+
+      
 
     
      
